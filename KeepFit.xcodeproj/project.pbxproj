@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640C87752A70554000765C5A /* KFPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640C87742A70554000765C5A /* KFPrivacyViewController.swift */; };
 		64F14DDE2A6A583300E8D1CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14DDD2A6A583300E8D1CE /* AppDelegate.swift */; };
 		64F14DE02A6A583300E8D1CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14DDF2A6A583300E8D1CE /* SceneDelegate.swift */; };
-		64F14DE22A6A583300E8D1CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14DE12A6A583300E8D1CE /* ViewController.swift */; };
 		64F14DE52A6A583300E8D1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F14DE32A6A583300E8D1CE /* Main.storyboard */; };
 		64F14DE72A6A583400E8D1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F14DE62A6A583400E8D1CE /* Assets.xcassets */; };
 		64F14DEA2A6A583400E8D1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F14DE82A6A583400E8D1CE /* LaunchScreen.storyboard */; };
+		64F14DF62A6F8A1000E8D1CE /* KFHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14DF52A6F8A1000E8D1CE /* KFHomeViewController.swift */; };
+		64F14DF82A6FDDF200E8D1CE /* KFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14DF72A6FDDF200E8D1CE /* KFBaseViewController.swift */; };
+		64F14E042A6FEBE300E8D1CE /* KFRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E032A6FEBE300E8D1CE /* KFRecordViewController.swift */; };
+		64F14E062A6FED3E00E8D1CE /* KFBaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E052A6FED3E00E8D1CE /* KFBaseTabbarController.swift */; };
+		64F14E082A6FEE0300E8D1CE /* KFShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E072A6FEE0300E8D1CE /* KFShowViewController.swift */; };
+		64F14E0A2A6FEE6700E8D1CE /* KFBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E092A6FEE6700E8D1CE /* KFBaseNavigationController.swift */; };
+		64F14E0D2A6FF18100E8D1CE /* KFBaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E0C2A6FF18100E8D1CE /* KFBaseNavigationView.swift */; };
+		64F14E0F2A6FF5C700E8D1CE /* KFCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E0E2A6FF5C700E8D1CE /* KFCommon.swift */; };
+		64F14E112A6FF6D200E8D1CE /* KFToolsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E102A6FF6D200E8D1CE /* KFToolsManager.swift */; };
+		64F14E132A7020B700E8D1CE /* KFDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E122A7020B700E8D1CE /* KFDateManager.swift */; };
+		64F14E152A7028A400E8D1CE /* KFBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E142A7028A400E8D1CE /* KFBaseModel.swift */; };
+		64F14E172A70291F00E8D1CE /* KFRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E162A70291F00E8D1CE /* KFRecordModel.swift */; };
+		64F14E192A7029D000E8D1CE /* KFRecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14E182A7029D000E8D1CE /* KFRecordManager.swift */; };
+		64F14E1B2A703E2600E8D1CE /* baduanjin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 64F14E1A2A703E2600E8D1CE /* baduanjin.mp4 */; };
+		D23E926CDA8C192FA0EFE018 /* Pods_KeepFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A562C93F89ABB8EF6BD97CA /* Pods_KeepFit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64F14DDA2A6A583300E8D1CE /* KeepFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A562C93F89ABB8EF6BD97CA /* Pods_KeepFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		640C87742A70554000765C5A /* KFPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFPrivacyViewController.swift; sourceTree = "<group>"; };
+		64F14DDA2A6A583300E8D1CE /* Eight-Length Brocade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eight-Length Brocade.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F14DDD2A6A583300E8D1CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F14DDF2A6A583300E8D1CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64F14DE12A6A583300E8D1CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64F14DE42A6A583300E8D1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64F14DE62A6A583400E8D1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64F14DE92A6A583400E8D1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64F14DEB2A6A583400E8D1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F14DF52A6F8A1000E8D1CE /* KFHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFHomeViewController.swift; sourceTree = "<group>"; };
+		64F14DF72A6FDDF200E8D1CE /* KFBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFBaseViewController.swift; sourceTree = "<group>"; };
+		64F14E032A6FEBE300E8D1CE /* KFRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFRecordViewController.swift; sourceTree = "<group>"; };
+		64F14E052A6FED3E00E8D1CE /* KFBaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFBaseTabbarController.swift; sourceTree = "<group>"; };
+		64F14E072A6FEE0300E8D1CE /* KFShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFShowViewController.swift; sourceTree = "<group>"; };
+		64F14E092A6FEE6700E8D1CE /* KFBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFBaseNavigationController.swift; sourceTree = "<group>"; };
+		64F14E0C2A6FF18100E8D1CE /* KFBaseNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFBaseNavigationView.swift; sourceTree = "<group>"; };
+		64F14E0E2A6FF5C700E8D1CE /* KFCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFCommon.swift; sourceTree = "<group>"; };
+		64F14E102A6FF6D200E8D1CE /* KFToolsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFToolsManager.swift; sourceTree = "<group>"; };
+		64F14E122A7020B700E8D1CE /* KFDateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFDateManager.swift; sourceTree = "<group>"; };
+		64F14E142A7028A400E8D1CE /* KFBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFBaseModel.swift; sourceTree = "<group>"; };
+		64F14E162A70291F00E8D1CE /* KFRecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFRecordModel.swift; sourceTree = "<group>"; };
+		64F14E182A7029D000E8D1CE /* KFRecordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFRecordManager.swift; sourceTree = "<group>"; };
+		64F14E1A2A703E2600E8D1CE /* baduanjin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = baduanjin.mp4; sourceTree = "<group>"; };
+		72636535AAB2086CE0EEACEF /* Pods-KeepFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepFit.debug.xcconfig"; path = "Target Support Files/Pods-KeepFit/Pods-KeepFit.debug.xcconfig"; sourceTree = "<group>"; };
+		D8420DF04E4D900634A994E8 /* Pods-KeepFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepFit.release.xcconfig"; path = "Target Support Files/Pods-KeepFit/Pods-KeepFit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23E926CDA8C192FA0EFE018 /* Pods_KeepFit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +75,15 @@
 			children = (
 				64F14DDC2A6A583300E8D1CE /* KeepFit */,
 				64F14DDB2A6A583300E8D1CE /* Products */,
+				D95016BEA0BEF65A2E334E20 /* Pods */,
+				ED44BCAE6B483208CB42E405 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		64F14DDB2A6A583300E8D1CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64F14DDA2A6A583300E8D1CE /* KeepFit.app */,
+				64F14DDA2A6A583300E8D1CE /* Eight-Length Brocade.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +91,78 @@
 		64F14DDC2A6A583300E8D1CE /* KeepFit */ = {
 			isa = PBXGroup;
 			children = (
-				64F14DDD2A6A583300E8D1CE /* AppDelegate.swift */,
-				64F14DDF2A6A583300E8D1CE /* SceneDelegate.swift */,
-				64F14DE12A6A583300E8D1CE /* ViewController.swift */,
-				64F14DE32A6A583300E8D1CE /* Main.storyboard */,
-				64F14DE62A6A583400E8D1CE /* Assets.xcassets */,
-				64F14DE82A6A583400E8D1CE /* LaunchScreen.storyboard */,
-				64F14DEB2A6A583400E8D1CE /* Info.plist */,
+				64F14DF42A6F89F300E8D1CE /* Base */,
+				64F14DF32A6F89EC00E8D1CE /* Home */,
+				64F14DF22A6F89C000E8D1CE /* Record */,
+				64F14DF12A6F74F800E8D1CE /* SupporttingFiles */,
 			);
 			path = KeepFit;
+			sourceTree = "<group>";
+		};
+		64F14DF12A6F74F800E8D1CE /* SupporttingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				64F14E1A2A703E2600E8D1CE /* baduanjin.mp4 */,
+				64F14DDD2A6A583300E8D1CE /* AppDelegate.swift */,
+				64F14DDF2A6A583300E8D1CE /* SceneDelegate.swift */,
+				64F14E0E2A6FF5C700E8D1CE /* KFCommon.swift */,
+				64F14E102A6FF6D200E8D1CE /* KFToolsManager.swift */,
+				64F14E122A7020B700E8D1CE /* KFDateManager.swift */,
+				64F14DE62A6A583400E8D1CE /* Assets.xcassets */,
+				64F14DE82A6A583400E8D1CE /* LaunchScreen.storyboard */,
+				64F14DE32A6A583300E8D1CE /* Main.storyboard */,
+				64F14DEB2A6A583400E8D1CE /* Info.plist */,
+				64F14E182A7029D000E8D1CE /* KFRecordManager.swift */,
+			);
+			path = SupporttingFiles;
+			sourceTree = "<group>";
+		};
+		64F14DF22A6F89C000E8D1CE /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				64F14E032A6FEBE300E8D1CE /* KFRecordViewController.swift */,
+				64F14E072A6FEE0300E8D1CE /* KFShowViewController.swift */,
+				64F14E162A70291F00E8D1CE /* KFRecordModel.swift */,
+				640C87742A70554000765C5A /* KFPrivacyViewController.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		64F14DF32A6F89EC00E8D1CE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				64F14DF52A6F8A1000E8D1CE /* KFHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		64F14DF42A6F89F300E8D1CE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				64F14DF72A6FDDF200E8D1CE /* KFBaseViewController.swift */,
+				64F14E092A6FEE6700E8D1CE /* KFBaseNavigationController.swift */,
+				64F14E052A6FED3E00E8D1CE /* KFBaseTabbarController.swift */,
+				64F14E0C2A6FF18100E8D1CE /* KFBaseNavigationView.swift */,
+				64F14E142A7028A400E8D1CE /* KFBaseModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D95016BEA0BEF65A2E334E20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72636535AAB2086CE0EEACEF /* Pods-KeepFit.debug.xcconfig */,
+				D8420DF04E4D900634A994E8 /* Pods-KeepFit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED44BCAE6B483208CB42E405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A562C93F89ABB8EF6BD97CA /* Pods_KeepFit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F14DEE2A6A583400E8D1CE /* Build configuration list for PBXNativeTarget "KeepFit" */;
 			buildPhases = (
+				613361E5FA79E19C4FF59EAA /* [CP] Check Pods Manifest.lock */,
 				64F14DD62A6A583300E8D1CE /* Sources */,
 				64F14DD72A6A583300E8D1CE /* Frameworks */,
 				64F14DD82A6A583300E8D1CE /* Resources */,
+				6B434A8A15F82E6146CAACCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +184,7 @@
 			);
 			name = KeepFit;
 			productName = KeepFit;
-			productReference = 64F14DDA2A6A583300E8D1CE /* KeepFit.app */;
+			productReference = 64F14DDA2A6A583300E8D1CE /* Eight-Length Brocade.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F14E1B2A703E2600E8D1CE /* baduanjin.mp4 in Resources */,
 				64F14DEA2A6A583400E8D1CE /* LaunchScreen.storyboard in Resources */,
 				64F14DE72A6A583400E8D1CE /* Assets.xcassets in Resources */,
 				64F14DE52A6A583300E8D1CE /* Main.storyboard in Resources */,
@@ -133,14 +234,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		613361E5FA79E19C4FF59EAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeepFit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B434A8A15F82E6146CAACCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeepFit/Pods-KeepFit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeepFit/Pods-KeepFit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeepFit/Pods-KeepFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64F14DD62A6A583300E8D1CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F14DE22A6A583300E8D1CE /* ViewController.swift in Sources */,
 				64F14DDE2A6A583300E8D1CE /* AppDelegate.swift in Sources */,
+				64F14E0F2A6FF5C700E8D1CE /* KFCommon.swift in Sources */,
+				64F14E082A6FEE0300E8D1CE /* KFShowViewController.swift in Sources */,
+				64F14E152A7028A400E8D1CE /* KFBaseModel.swift in Sources */,
+				64F14DF82A6FDDF200E8D1CE /* KFBaseViewController.swift in Sources */,
+				64F14E0A2A6FEE6700E8D1CE /* KFBaseNavigationController.swift in Sources */,
+				640C87752A70554000765C5A /* KFPrivacyViewController.swift in Sources */,
+				64F14E062A6FED3E00E8D1CE /* KFBaseTabbarController.swift in Sources */,
+				64F14E112A6FF6D200E8D1CE /* KFToolsManager.swift in Sources */,
+				64F14E042A6FEBE300E8D1CE /* KFRecordViewController.swift in Sources */,
+				64F14E0D2A6FF18100E8D1CE /* KFBaseNavigationView.swift in Sources */,
 				64F14DE02A6A583300E8D1CE /* SceneDelegate.swift in Sources */,
+				64F14E172A70291F00E8D1CE /* KFRecordModel.swift in Sources */,
+				64F14E132A7020B700E8D1CE /* KFDateManager.swift in Sources */,
+				64F14DF62A6F8A1000E8D1CE /* KFHomeViewController.swift in Sources */,
+				64F14E192A7029D000E8D1CE /* KFRecordManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,59 +438,69 @@
 		};
 		64F14DEF2A6A583400E8D1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72636535AAB2086CE0EEACEF /* Pods-KeepFit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2S3TYJ9383;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KeepFit/Info.plist;
+				INFOPLIST_FILE = KeepFit/SupporttingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eight-Length Brocade";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.KeepFit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.keepFit;
+				PRODUCT_NAME = "Eight-Length Brocade";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		64F14DF02A6A583400E8D1CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8420DF04E4D900634A994E8 /* Pods-KeepFit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2S3TYJ9383;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KeepFit/Info.plist;
+				INFOPLIST_FILE = KeepFit/SupporttingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eight-Length Brocade";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.KeepFit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.keepFit;
+				PRODUCT_NAME = "Eight-Length Brocade";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

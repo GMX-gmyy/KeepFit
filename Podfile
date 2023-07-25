@@ -6,5 +6,7 @@ target 'KeepFit' do
   use_frameworks!
 
   # Pods for KeepFit
+  pod 'SnapKit'
+  pod 'ObjectMapper'
 
 end
